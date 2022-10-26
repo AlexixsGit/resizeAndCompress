@@ -3,14 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Image resizer javascript | CodingNepal</title>
+    <title>Image resizer javascript</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="upload-blox">
+        <div class="upload-blox" id="uploadBox">
+            <input type="file" accept="image/*" hidden>
             <img src="upload-icon.svg" alt="">
             <p>Browse File to upload</p>
         </div>
@@ -39,5 +40,6 @@
         </div>
     </div>
 </body>
+<script src="script.js" defer></script>
 
 </html>
