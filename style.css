@@ -38,6 +38,17 @@ body {
     margin-top: 28px;
 }
 
+.wrapper.active .upload-blox p {
+    display: none;
+}
+
+.wrapper.active .upload-blox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
 .wrapper .content {
     margin-top: 28px;
 }
