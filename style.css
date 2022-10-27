@@ -20,6 +20,24 @@ body {
     padding: 30px;
     background: #fff;
     border-radius: 9px;
+    height: 288px;
+    transition: height 02s ease;
+}
+
+.wrapper.active {
+    height: 537px;
+}
+
+.wrapper .content {
+    opacity: 0;
+    margin-top: 28px;
+    pointer-events: none;
+}
+
+.wrapper.active .content {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.8s 0.08s ease;
 }
 
 .wrapper .upload-blox {
